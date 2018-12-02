@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-loader": "^8.0.4",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-polygon": "^0.2.0",
+    "react-scripts": "^2.0.6-next.c662dfb0",
+    "webpack": "4.19.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
