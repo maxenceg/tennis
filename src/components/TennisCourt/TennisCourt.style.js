@@ -8,7 +8,8 @@ const styles = {
     padding: 2,
     gridGap: 2,
     gridTemplateColumns: "auto 37.5% 37.5% auto",
-    backgroundColor: "white"
+    backgroundColor: "white",
+    border: "1px solid #cccccc"
   },
   northAlley: {
     gridRowStart: 1,
