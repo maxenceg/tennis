@@ -1,13 +1,31 @@
 import React, { Component } from "react";
-import TennisCourt from "../TennisCourt/TennisCourt";
+import TennisCourt from "../TennisCourt";
 import styles from "./Club.style";
 
 class Club extends Component {
   render() {
     return (
       <div style={styles.courtExt}>
-        <TennisCourt rotation="-45" />
-        <TennisCourt rotation="45" />
+        <TennisCourt
+          draggable="true"
+          tennisCourtSize={this.props.tennisCourtSize}
+          rotation="10"
+        />
+        <TennisCourt
+          draggable="true"
+          tennisCourtSize={this.props.tennisCourtSize}
+          rotation="10"
+        />
+        <TennisCourt
+          draggable="true"
+          tennisCourtSize={this.props.tennisCourtSize}
+          rotation="10"
+        />
+        <TennisCourt
+          draggable="true"
+          tennisCourtSize={this.props.tennisCourtSize}
+          rotation="10"
+        />
       </div>
     );
   }
