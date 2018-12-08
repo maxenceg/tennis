@@ -13,26 +13,28 @@ class TennisCourt extends Component {
         bounds="parent"
         onStart={this.props.draggable ? () => true : () => false}
       >
-        <div
-          style={{
-            ...styles.wholeCourt,
-            padding: padding,
-            gridGap: gridGap,
-            height: courtHeight,
-            width: courtWidth,
-            transform: `rotate(${this.props.rotation}deg)`
-          }}
-        >
-          <div style={styles.northAlley} />
-          <div style={styles.northBackPart} />
-          <div style={styles.northAlley} />
-          <div style={styles.serviceBox} />
-          <div style={styles.serviceBox} />
-          <div style={styles.southWestAlley} />
-          <div style={styles.serviceBox} />
-          <div style={styles.serviceBox} />
-          <div style={styles.southEastAlley} />
-          <div style={styles.southBackPart} />
+        <div>
+          <div
+            style={{
+              ...styles.wholeCourt,
+              padding: padding,
+              gridGap: gridGap,
+              height: courtHeight,
+              width: courtWidth,
+              transform: `rotate(${this.props.rotation}deg)`
+            }}
+          >
+            <div style={styles.northAlley} />
+            <div style={styles.northBackPart} />
+            <div style={styles.northAlley} />
+            <div style={styles.serviceBox} />
+            <div style={styles.serviceBox} />
+            <div style={styles.southWestAlley} />
+            <div style={styles.serviceBox} />
+            <div style={styles.serviceBox} />
+            <div style={styles.southEastAlley} />
+            <div style={styles.southBackPart} />
+          </div>
         </div>
       </Draggable>
     );
