@@ -179,6 +179,9 @@
     "symfony/doctrine-bridge": {
         "version": "v4.0.3"
     },
+    "symfony/dotenv": {
+        "version": "v4.2.1"
+    },
     "symfony/event-dispatcher": {
         "version": "v4.0.3"
     },
@@ -218,11 +221,17 @@
     "symfony/inflector": {
         "version": "v4.0.3"
     },
+    "symfony/intl": {
+        "version": "v4.2.1"
+    },
     "symfony/options-resolver": {
         "version": "v4.0.3"
     },
     "symfony/polyfill-ctype": {
         "version": "v1.8.0"
+    },
+    "symfony/polyfill-intl-icu": {
+        "version": "v1.10.0"
     },
     "symfony/polyfill-mbstring": {
         "version": "v1.6.0"
@@ -278,6 +287,15 @@
     "symfony/stopwatch": {
         "version": "v4.0.3"
     },
+    "symfony/translation": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "1fb02a6e1c8f3d4232cce485c9afa868d63b115a"
+        }
+    },
     "symfony/twig-bridge": {
         "version": "v4.0.3"
     },
@@ -316,6 +334,15 @@
     },
     "webmozart/assert": {
         "version": "1.2.0"
+    },
+    "willdurand/js-translation-bundle": {
+        "version": "2.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "2.0",
+            "ref": "02b720a49f6d36b44d557e0b18e48bf09e0a8e07"
+        }
     },
     "willdurand/negotiation": {
         "version": "v2.3.1"
